@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h1, h2, h3, h4 {
+    @apply font-extrabold text-title-color;
+  }
+  h5 {
+    @apply font-bold text-title-color;
+  }
+  h3 + p, h3 + span {
+    @apply font-semibold;
+  }
+  footer a {
+    @apply font-normal;
+  }
+}
+@layer components {
+  .btn {
+    @apply font-bold;
+  }
+  .btn-primary {
+    @apply bg-btn-gradient border-none text-white;
+  }
+  .btn-white {
+    @apply bg-white text-[#F00];
+  }
+}
