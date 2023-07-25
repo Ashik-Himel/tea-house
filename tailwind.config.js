@@ -17,7 +17,8 @@ module.exports = {
         'btn-gradient': "linear-gradient(270deg, #F00, #FF8938)",
         'grid-gradient-2': "linear-gradient(90deg, #D9D9D9, rgba(255, 255, 255, 0.00))",
         'footer-bg': "linear-gradient(270deg, rgba(255, 0, 0, 0.10), rgba(255, 137, 56, 0.10))",
-        'featured-gradient': "linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0.00) 100%)"
+        'featured-gradient': "linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0.00) 100%)",
+        'bg-img': "linear-gradient(270deg, #F00, #FF8938), url('./../images/bg_cup.png')"
       }
     },
     container: {
