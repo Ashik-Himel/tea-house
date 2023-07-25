@@ -21,16 +21,16 @@
   <header class="py-8 md:py-12">
     <div class="container">
       <div class="hero">
-        <div class="hero-content w-full flex-col gap-8 justify-around items-center lg:flex-row">
+        <div class="hero-content w-full flex-col gap-8 justify-between items-center lg:flex-row">
           <div class="max-w-[400px]">
             <h1 class="text-5xl leading-[1.2]">It's good<br>tea time at The Tea House</h1>
             <p class="py-3">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
             <button class="btn btn-primary mt-4">Explore More <i class="fa-solid fa-arrow-trend-up"></i></button>
           </div>
-          <div class="max-w-sm h-max pb-4 relative">
+          <div class="w-full max-w-sm h-max pb-4 relative">
             <img src="./images/banner.png" />
             <div
-              class="bg-white shadow-md shadow-gray-300 p-4 rounded-md flex justify-center items-center gap-4 w-full max-w-[250px] absolute bottom-0 -left-14">
+              class="bg-white shadow-md shadow-gray-300 p-4 rounded-md flex justify-center items-center gap-4 w-full max-w-[250px] absolute bottom-0 -left-[12%]">
               <i class="fa-solid fa-star text-star-color"></i>
               <div>
                 <h3 class="text-xl">5.00</h3>
@@ -113,7 +113,7 @@
     <!-- Banner Section -->
     <section class="mt-24">
       <div
-        class="container bg-bg-img bg-blend-overlay bg-no-repeat bg-contain rounded-lg p-8 lg:p-16 flex gap-12 justify-center items-center flex-col md:flex-row">
+        class="container bg-bg-img bg-blend-overlay bg-no-repeat bg-contain rounded-lg p-8 lg:p-16 flex gap-12 justify-center items-center flex-col lg:flex-row">
         <div class="max-w-[500px] space-y-4">
           <h2 class="text-light-color text-4xl">Meet Our Super Clients</h2>
           <p class="text-light-color">There are many variations of passages of Lorem Ipsum available, but the majority
@@ -193,14 +193,14 @@
   <!-- Footer Section -->
   <footer class="text-footer-gray bg-footer-bg py-12 mt-24">
     <div class="container">
-      <div class="flex justify-between items-center gap-10 flex-col md:flex-row">
+      <div class="flex justify-between items-center gap-10 flex-col lg:flex-row">
         <img src="./images/cup.png" alt="Cup">
         <div class="flex items-center gap-4">
           <span>Ready to get started?</span>
           <a href="#" class="btn btn-primary">Get Started</a>
         </div>
       </div>
-      <div class="footer pt-10">
+      <div class="footer pt-12 [&>*>*]:lg:mx-auto lg:text-center justify-between">
         <div>
           <span class="footer-title text-title-color opacity-100 text-lg">Quick Links</span> 
           <a class="link link-hover">Home</a> 
@@ -224,7 +224,7 @@
           <span class="footer-title text-title-color opacity-100 text-lg">Subscribe to our newsletter</span> 
           <div class="form-control">
             <div class="relative w-full">
-              <input type="text" placeholder="Email address" class="input w-4/5 bg-transparent border-x-0 border-t-0 border-b-[2px] border-b-footer-gray rounded-none outline-none h-10" /> 
+              <input type="text" placeholder="Email address" class="input w-[65%] bg-transparent border-x-0 border-t-0 border-b-[2px] border-b-footer-gray rounded-none outline-none h-10" /> 
               <button class="btn btn-primary absolute top-0 right-0 rounded-full w-12 h-12 scale-75"><i class="fa-solid fa-angle-right"></i></button>
             </div>
           </div>
