@@ -11,7 +11,7 @@ module.exports = {
         'para-color': "#777777",
         'light-color': "#F4F4F4",
         'star-color': "#FFC850",
-        'footer-gray': "#F4F4F4"
+        'footer-gray': "#494949"
       },
       backgroundImage: {
         'btn-gradient': "linear-gradient(270deg, #F00, #FF8938)",

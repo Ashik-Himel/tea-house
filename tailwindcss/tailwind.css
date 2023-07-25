@@ -18,7 +18,7 @@
 }
 @layer components {
   .btn {
-    @apply font-bold;
+    @apply font-bold capitalize;
   }
   .btn-primary {
     @apply bg-btn-gradient border-none text-white;
